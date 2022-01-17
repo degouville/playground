@@ -57,6 +57,11 @@ export default {
     :desc="desc"
     :link="link"
   )
+
+  a.source-code(
+    href="https://github.com/degouville/playground/blob/main/src/components/BlogCard.vue"
+    target="_blank"
+  ) Take a look at the source code
 </template>
 
 <style lang="stylus">
@@ -89,4 +94,10 @@ body
     #container
       width 30rem
       height 13.625rem
+
+      .source-code
+        color #0008
+        position absolute
+        bottom 0
+        left 0
 </style>
